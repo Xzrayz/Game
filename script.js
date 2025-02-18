@@ -23,8 +23,8 @@ button.addEventListener("click", function() {
 
     // Increase speed every 5 points
     if (score % 5 === 0) {
-        speed -= 300; // Make the button move faster
-        if (speed < 400) speed = 400; // Minimum speed
+        speed -= 800; // Make the button move faster
+        if (speed < 1000) speed = 1000; // Minimum speed
     }
 
     moveButton();
